@@ -60,7 +60,6 @@ class TV:
 
 
 if __name__ == "__main__":
-    # Exemplo de uso da classe TV
     print("=== TESTE DA CLASSE TV ===")
     tv = TV()
 
@@ -71,7 +70,7 @@ if __name__ == "__main__":
     tv.diminuir_volume()
     print(f"Status final: {tv.status()}")
 
-    # Testando limites
-    tv.mudar_canal(150)  # Canal inválido
-    tv.volume = 50  # Setando volume máximo
-    tv.aumentar_volume()  # Tentando aumentar além do máximo
+   
+    tv.mudar_canal(150)  
+    tv.volume = 50  
+    tv.aumentar_volume() 

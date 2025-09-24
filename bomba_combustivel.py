@@ -81,7 +81,6 @@ class BombaCombustivel:
 
 
 if __name__ == "__main__":
-    # Exemplo de uso da classe BombaCombustivel
     print("=== TESTE DA CLASSE BOMBA DE COMBUSTÍVEL ===")
     bomba = BombaCombustivel("Gasolina", 5.50, 1000)
 

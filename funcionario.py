@@ -56,18 +56,17 @@ class Funcionario:
 
 
 if __name__ == "__main__":
-    # Exemplo conforme especificação
     print("=== TESTE DA CLASSE FUNCIONÁRIO ===")
-    harry = Funcionario("Harry", 25000)
+    andre = Funcionario("andre", 25000)
     
-    print(f"Funcionário: {harry.obter_nome()}")
-    print(f"Salário inicial: R$ {harry.obter_salario():.2f}")
+    print(f"Funcionário: {andre.obter_nome()}")
+    print(f"Salário inicial: R$ {andre.obter_salario():.2f}")
     
     print("\nAumentando salário em 10%:")
-    harry.aumentar_salario(10)
+    andre.aumentar_salario(10)
     
     print("\nAumentando salário em 27%:")
-    harry.aumentar_salario(27)
+    andre.aumentar_salario(27)
     
     print("\nTestando aumento negativo:")
-    harry.aumentar_salario(-5)
+    andre.aumentar_salario(-5)

@@ -47,7 +47,6 @@ class Quadrado:
 
 
 if __name__ == "__main__":
-    # Exemplo de uso da classe Quadrado
     print("=== TESTE DA CLASSE QUADRADO ===")
     quadrado1 = Quadrado(5)
 

@@ -107,7 +107,7 @@ def calcular_pisos_e_rodapes():
 
 
 if __name__ == "__main__":
-    # Teste da classe Retângulo
+
     print("=== TESTE DA CLASSE RETÂNGULO ===")
     retangulo1 = Retangulo(10, 6)
 

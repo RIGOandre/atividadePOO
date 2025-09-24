@@ -73,7 +73,6 @@ class ContaCorrente:
 
 
 if __name__ == "__main__":
-    # Exemplo de uso da classe ContaCorrente
     print("=== TESTE DA CLASSE CONTA CORRENTE ===")
 
     # Criando conta com saldo inicial padrão (zero)

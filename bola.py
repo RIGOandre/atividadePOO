@@ -42,7 +42,6 @@ class Bola:
 
 
 if __name__ == "__main__":
-    # Exemplo de uso da classe Bola
     print("=== TESTE DA CLASSE BOLA ===")
     bola1 = Bola("Vermelha", 30.5, "Borracha")
 

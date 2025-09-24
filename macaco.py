@@ -44,12 +44,10 @@ class Macaco:
 
 
 if __name__ == "__main__":
-    # Exemplo de uso da classe Macaco
     print("=== TESTE DA CLASSE MACACO ===")
 
-    # Criando dois macacos
     macaco1 = Macaco("Kong")
-    macaco2 = Macaco("Bananas")
+    macaco2 = Macaco("Banana")
 
     print("--- Alimentando os macacos ---")
 

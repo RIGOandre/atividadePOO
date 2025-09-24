@@ -54,7 +54,6 @@ class Carro:
 
 
 if __name__ == "__main__":
-    # Exemplo de uso conforme especificação
     print("=== TESTE DA CLASSE CARRO ===")
 
     meuFusca = Carro(15)  # 15 quilômetros por litro de combustível

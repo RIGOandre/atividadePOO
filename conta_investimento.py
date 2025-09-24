@@ -35,7 +35,7 @@ class ContaInvestimento:
 
 
 if __name__ == "__main__":
-    # Exemplo conforme especificação
+    
     print("=== TESTE DA CLASSE CONTA DE INVESTIMENTO ===")
     poupanca = ContaInvestimento(1000.00, 10)  # R$ 1000 com 10% de juros
 

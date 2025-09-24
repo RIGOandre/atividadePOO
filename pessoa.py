@@ -79,10 +79,8 @@ class Pessoa:
 
 
 if __name__ == "__main__":
-    # Exemplo de uso da classe Pessoa
     print("=== TESTE DA CLASSE PESSOA ===")
 
-    # Criando uma pessoa jovem
     joao = Pessoa("João", 16, 65.0, 170.0)
     print("Informações iniciais:")
     joao.mostrarInfo()

@@ -58,10 +58,8 @@ def encontrar_centro(retangulo):
 
 
 if __name__ == "__main__":
-    # Exemplo de uso das classes Ponto e Retângulo
     print("=== TESTE DAS CLASSES PONTO E RETÂNGULO ===")
 
-    # Criando pontos
     ponto1 = Ponto(0, 0)
     ponto2 = Ponto(5, 3)
 
@@ -71,7 +69,6 @@ if __name__ == "__main__":
     print("Ponto 2:", end=" ")
     imprimir_ponto(ponto2)
 
-    # Criando retângulos
     ret1 = RetanguloGeometrico(ponto1, 10, 5)
     ret2 = RetanguloGeometrico(ponto2, 8, 6)
 
